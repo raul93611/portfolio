@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raul93611/portfolio.git"
+  },
+  "author": "Raul Velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raul93611/portfolio/issues"
+  },
+  "homepage": "https://github.com/raul93611/portfolio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
+    "typed.js": "^2.0.12"
+  }
+}

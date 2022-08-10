@@ -1,12 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/img/favicon.png">
+  <script type="module" src="/src/js/main.js" defer></script>
+  <link rel="stylesheet" href="/src/scss/custom.scss">
   <title>Portfolio</title>
 </head>
+
 <body>
-  
+  <div id="navbar1" class="header position-fixed h-100 col-md-auto d-flex align-items-center">
+    <ul class="nav flex-column">
+      <li data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="nav-item mx-2 my-1">
+        <a class="fs-2 nav-link rounded-circle" aria-current="page" href="#home"><i class="bi bi-house-fill"></i></a>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="nav-item mx-2 my-1">
+        <a class="fs-2 nav-link rounded-circle" href="#about"><i class="bi bi-person-circle"></i></a>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="nav-item mx-2 my-1">
+        <a class="fs-2 nav-link rounded-circle" href="#skills"><i class="bi bi-award-fill"></i></a>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="nav-item mx-2 my-1">
+        <a class="fs-2 nav-link rounded-circle" href="#resume"><i class="bi bi-file-earmark-fill"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div data-bs-spy="scroll" data-bs-target="#navbar1" tabindex="0">
+
+    <section id="home" class="home">
+      <div class="container-fluid">
+        <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"
+          class="hero row align-items-center justify-content-center">
+          <div class="col-sm-8">
+            <h1 class="fw-bolder">Leonardo Velasco</h1>
+            <div class="fs-3 fw-bold">
+              <span></span>
+              <div>
+                <a target="_blank" class="px-2" href="https://twitter.com/raul93611"><i class="bi bi-twitter"></i></a>
+                <a target="_blank" class="px-2" href="https://www.facebook.com/leonardoraul.velascoparihuana/"><i
+                    class="bi bi-facebook"></i></a>
+                <a target="_blank" class="px-2" href="https://www.instagram.com/raul_93611/"><i
+                    class="bi bi-instagram"></i></a>
+                <a target="_blank" class="px-2"
+                  href="https://www.linkedin.com/in/leonardo-raul-velasco-parihuana-5916aa174/"><i
+                    class="bi bi-linkedin"></i></a>
+                <a target="_blank" class="px-2" href="https://github.com/raul93611"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main id="main">
+      <section id="about" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="about my-5">
+        <div class="container">
+          <div class="row m-3">
+            <div class="col-md-12 text-center">
+              <h1 class="fw-bolder">ABOUT</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <img src="src/img/perfil.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7">
+              <div class="row">
+                <h3 class="text-secondary">Web Developer & Tester</h3>
+              </div>
+              <div class="row m-4">
+                <div class="col-md-6">
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>Birthday:</b> November 6, 1993</p>
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>Phone:</b> +591 67190873</p>
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>City:</b> La Paz, Bolivia</p>
+                </div>
+                <div class="col-md-6">
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>Age:</b> <span class="age"></span></p>
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>E-mail:</b> raul93611@gmail.com</p>
+                  <p><i class="text-primary bi bi-chevron-right"></i> <b>Freelance:</b> Available</p>
+                </div>
+              </div>
+              <div class="row m-4">
+                <p>
+                  Hi there, I am Leonardo Velasco. I am from La Paz, Bolivia. It has been 4 years that I am working as a
+                  web developer, and 3 years
+                  working as a software tester. I was working as a freelancer the last 3 years. I have been part of many
+                  projects in both areas
+                  (tester and web developer).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="skills my-5">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-md-12 text-center">
+              <h1 class="fw-bolder">DEVELOPMENT SKILLS</h1>
+            </div>
+            <div class="row my-5">
+              <div class="col-md-6">
+                <div class="my-3">
+                  <h5>HTML</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>CSS</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>JS</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="my-3">
+                  <h5>PHP</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>WORDPRESS</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>LARAVEL</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 text-center">
+              <h1 class="fw-bolder">TESTING SKILLS</h1>
+            </div>
+            <div class="row my-5">
+              <div class="col-md-6">
+                <div class="my-3">
+                  <h5>JAVA</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>SELENIUM</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 72%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>TESTNG</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="my-3">
+                  <h5>POSTMAN</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>JIRA</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <h5>XRAY (Test Management Tool)</h5>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="resume" class="resume">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+          <div class="col-md-12 text-center">
+            <h1 class="fw-bolder">RESUME</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Graduated in Electronic Engineering</h4>
+                <h5>2011 - 2017</h5>
+                <p><em>Universidad Mayor de San Andres, La Paz, Bolivia</em></p>
+              </div>
+              <div class="resume-item">
+                <h4>Proficiency in English</h4>
+                <h5>2014 - 2017</h5>
+                <p><em>CBA Centro Boliviano Americano, La Paz, Bolivia</em></p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Web developer</h4>
+                <h5>May-2018 / May-2019</h5>
+                <p><em>E-logic Inc., Washington, D.C.</em></p>
+                <ul>
+                  <li>URL: <a href="https://www.elogicportal.com/" target="_blank">https://www.elogicportal.com/</a>
+                  </li>
+                  <li>
+                    Development of a web application to manage all the products and services quotes that the
+                    company handles. The web application consists of the following:
+                  </li>
+                  <ul>
+                    <li>Management of users and roles.</li>
+                    <li>CRUD for quotes, items, subitems, providers.</li>
+                    <li>The ability to generate charts and excel reports.</li>
+                    <li>The ability to export the quotes in a PDF template.</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>QA Engineer (Manual / Automated Testing)</h4>
+                <h5>June-2019 / Present</h5>
+                <p><em>N/A</em></p>
+                <ul>
+                  <li>
+                    The company sells many products via web advertisements and websites that has a purchase
+                    flow for each product. I was in charge to test the purchase flow and all the possible iterations
+                    inside that flow, in different browsers, desktop and mobile.
+                  </li>
+                  <li>I developed an automation framework to automate the
+                    purchase flow and all the iterations. I used Selenium, TestNG with Java to build the framework.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>QA Engineer(Manual/Automated Testing)</h4>
+                <h5>June-2019 / Present</h5>
+                <p><em>N/A</em></p>
+                <ul>
+                  <li>
+                    The company has a web application as a product, that web application handles institutions
+                    workflow dedicated to clinical research. Currently, I am in charge to test the application:
+                  </li>
+                  <ul>
+                    <li>Manual testing for the new features and for the regression testing. The repository of
+                      the test cases is managed by xRay, which is a JIRA plugin for test maangement.</li>
+                    <li>API testing using postman for integrations that the application has.</li>
+                    <li>Automated testing using Selenium, TestNG with Java to automate most of the test
+                      cases.</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Web developer</h4>
+                <h5>Feb-2020 / Present</h5>
+                <p><em>E-logic Inc., Washington, D.C.</em></p>
+                <ul>
+                  <li>
+                    I was hired again by the company but in this case as a freelancer. Currently, I am doing the
+                    maintenance and development of more features for the web application:
+                  </li>
+                  <ul>
+                    <li>The ability to send email notifications when certain actions are triggered.</li>
+                    <li>A tasks board the assign and organize the work, each task has the ability to handle estatuses
+                      and
+                      exchange messages.</li>
+                    <li>An accounting section with the final and real values after the quotes are executed.</li>
+                  </ul>
+                  <li>Besides that web application (<a href="https://www.elogicportal.com/"
+                      target="_blank">https://www.elogicportal.com/</a>). I am doing the maintenance of the
+                    website of the company. URL: <a href="https://e-logic.us/" target="_blank">https://e-logic.us/</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Web developer</h4>
+                <h5>Feb-2020 / Feb-2020</h5>
+                <p><em>MOX technologies, CDMX, Mexico</em></p>
+                <ul>
+                  <li>
+                    I did the maintenance of the website of the company. URL: <a href="https://moxtech.com/"
+                      target="_blank">https://moxtech.com/</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>QA Engineer(Manual Testing)</h4>
+                <h5>August-2020 / Present</h5>
+                <p><em>uTest</em></p>
+                <ul>
+                  <li>
+                    uTest is a freelancer platform especifically for testers.
+                  </li>
+                  <li>The workflow that I have with them is the following: They has many customers, then they
+                    sent project invitations to the testers that match the requirements, then I can accept or
+                    decline the invitation.</li>
+                  <li>Working for them I had the opportunity to test many kind of projects like applications for
+                    content streaming, facial recognition, education, messaging, and testing in many devices,
+                    desktop, mobile, Smart TVs.</li>
+                  <li>Also I got more skills as manual tester like: get logs from android devices, learn how to use
+                    Charles logs.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Web developer</h4>
+                <h5>Feb-2022 / Jun-2022</h5>
+                <p><em>Expande Trading, CDMX, Mexico</em></p>
+                <ul>
+                  <li>
+                    I was in charge of the creation of the website of the company. URL: <a
+                      href="https://expandetrading.com/" target="_blank">https://expandetrading.com/</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer id="footer">
+    <div class="container p-5 text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="fw-bolder">LEONARDO VELASCO</h1>
+          <div class="social-links">
+            <a href="https://twitter.com/raul93611" target="_blank" class="fs-2 px-2"><i
+                class="bi bi-twitter"></i></i></a>
+            <a href="https://www.facebook.com/leonardoraul.velascoparihuana/" target="_blank" class="fs-2 px-2"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/raul_93611/" target="_blank" class="fs-2 px-2"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-raul-velasco-parihuana-5916aa174/" target="_blank"
+              class="fs-2 px-2"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="copyright">
+            © Copyright <strong><span>raul93611</span></strong>. All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
